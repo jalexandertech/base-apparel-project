@@ -45,8 +45,8 @@ main {
 
 .img-one {
     background-image: url(./images/hero-mobile.jpg);
-    width: 100%;
-    height: 300px;
+    max-width: 100%;
+    height: auto;
     background-repeat: no-repeat;
     background-size: cover;
     background-size: 100% 100%;
@@ -156,8 +156,8 @@ button img {
     }
     .img-one {
         background-image: url(./images/hero-desktop.jpg);
-        width: 100%;
-        min-height: 100vh;
+        max-width: 100%;
+        min-height: auto;
         background-repeat: no-repeat;
         background-size:  100% 100% cover;
         grid-area: img;
